@@ -1,0 +1,248 @@
+M:\SoftUni\Project\KTM\StreamPowered.App\obj\Debug\KTM.App.csprojResolveAssemblyReference.cache
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\KTM.App.dll.config
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\KTM.App.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\KTM.App.pdb
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Antlr3.Runtime.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\AutoMapper.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\EntityFramework.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\EntityFramework.SqlServer.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\KTM.Data.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\KTM.Models.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Microsoft.AspNet.Identity.Core.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Microsoft.AspNet.Identity.Owin.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Microsoft.Owin.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Microsoft.Owin.Host.SystemWeb.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Microsoft.Owin.Security.Cookies.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Microsoft.Owin.Security.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Microsoft.Owin.Security.Facebook.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Microsoft.Owin.Security.Google.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Microsoft.Owin.Security.OAuth.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Microsoft.Owin.Security.Twitter.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Microsoft.Web.Infrastructure.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Newtonsoft.Json.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Ninject.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Ninject.Web.Common.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Ninject.Web.Mvc.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Owin.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\System.Web.Helpers.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\System.Web.Mvc.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\System.Web.Optimization.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\System.Web.Razor.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\System.Web.WebPages.Deployment.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\System.Web.WebPages.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\System.Web.WebPages.Razor.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\WebActivatorEx.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\WebGrease.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\KTM.Data.pdb
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\KTM.Models.pdb
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\AutoMapper.xml
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Ninject.xml
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Ninject.Web.Common.xml
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Ninject.Web.Mvc.xml
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\System.Web.Helpers.xml
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\System.Web.Mvc.xml
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\System.Web.Optimization.xml
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\System.Web.Razor.xml
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\System.Web.WebPages.xml
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\System.Web.WebPages.Deployment.xml
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\System.Web.WebPages.Razor.xml
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Antlr3.Runtime.pdb
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Newtonsoft.Json.xml
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\EntityFramework.xml
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\EntityFramework.SqlServer.xml
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Microsoft.AspNet.Identity.Core.xml
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Microsoft.AspNet.Identity.Owin.xml
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Microsoft.Owin.xml
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Microsoft.Owin.Host.SystemWeb.xml
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Microsoft.Owin.Security.xml
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Microsoft.Owin.Security.Facebook.xml
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Microsoft.Owin.Security.Cookies.xml
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Microsoft.Owin.Security.OAuth.xml
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Microsoft.Owin.Security.Google.xml
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Microsoft.Owin.Security.Twitter.xml
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+M:\SoftUni\Project\KTM\StreamPowered.App\obj\Debug\KTM.App.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\obj\Debug\KTM.App.pdb
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\roslyn\csc.exe
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\roslyn\Microsoft.CodeAnalysis.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\roslyn\Microsoft.CSharp.Core.targets
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\roslyn\Microsoft.VisualBasic.Core.targets
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\roslyn\System.Collections.Immutable.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\roslyn\System.Reflection.Metadata.dll
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\roslyn\vbc.exe
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\roslyn\VBCSCompiler.exe
+M:\SoftUni\Project\KTM\StreamPowered.App\bin\roslyn\VBCSCompiler.exe.config
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\roslyn\csc.exe
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\roslyn\Microsoft.CodeAnalysis.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\roslyn\Microsoft.CSharp.Core.targets
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\roslyn\Microsoft.VisualBasic.Core.targets
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\roslyn\System.Collections.Immutable.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\roslyn\System.Reflection.Metadata.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\roslyn\vbc.exe
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\roslyn\VBCSCompiler.exe
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\roslyn\VBCSCompiler.exe.config
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\KTM.App.dll.config
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\KTM.App.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\KTM.App.pdb
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Antlr3.Runtime.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\AutoMapper.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\EntityFramework.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\EntityFramework.SqlServer.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\KTM.Data.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\KTM.Models.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Microsoft.AspNet.Identity.Core.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Microsoft.AspNet.Identity.Owin.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Microsoft.Owin.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Microsoft.Owin.Host.SystemWeb.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Microsoft.Owin.Security.Cookies.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Microsoft.Owin.Security.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Microsoft.Owin.Security.Facebook.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Microsoft.Owin.Security.Google.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Microsoft.Owin.Security.OAuth.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Microsoft.Owin.Security.Twitter.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Microsoft.Web.Infrastructure.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Newtonsoft.Json.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Ninject.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Ninject.Web.Common.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Ninject.Web.Mvc.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Owin.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\System.Web.Helpers.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\System.Web.Mvc.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\System.Web.Optimization.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\System.Web.Razor.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\System.Web.WebPages.Deployment.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\System.Web.WebPages.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\System.Web.WebPages.Razor.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\WebActivatorEx.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\WebGrease.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\KTM.Data.pdb
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\KTM.Models.pdb
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\AutoMapper.xml
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Ninject.xml
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Ninject.Web.Common.xml
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Ninject.Web.Mvc.xml
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\System.Web.Helpers.xml
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\System.Web.Mvc.xml
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\System.Web.Optimization.xml
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\System.Web.Razor.xml
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\System.Web.WebPages.xml
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\System.Web.WebPages.Deployment.xml
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\System.Web.WebPages.Razor.xml
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Antlr3.Runtime.pdb
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Newtonsoft.Json.xml
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\EntityFramework.xml
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\EntityFramework.SqlServer.xml
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Microsoft.AspNet.Identity.Core.xml
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Microsoft.AspNet.Identity.Owin.xml
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Microsoft.Owin.xml
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Microsoft.Owin.Host.SystemWeb.xml
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Microsoft.Owin.Security.xml
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Microsoft.Owin.Security.Facebook.xml
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Microsoft.Owin.Security.Cookies.xml
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Microsoft.Owin.Security.OAuth.xml
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Microsoft.Owin.Security.Google.xml
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Microsoft.Owin.Security.Twitter.xml
+M:\SoftUni\Project\KTM - Copy\KTM.App\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+M:\SoftUni\Project\KTM - Copy\KTM.App\obj\Debug\KTM.App.csprojResolveAssemblyReference.cache
+M:\SoftUni\Project\KTM - Copy\KTM.App\obj\Debug\KTM.App.dll
+M:\SoftUni\Project\KTM - Copy\KTM.App\obj\Debug\KTM.App.pdb
+M:\SoftUni\Project\KTM\KTM.App\bin\roslyn\csc.exe
+M:\SoftUni\Project\KTM\KTM.App\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\roslyn\Microsoft.CodeAnalysis.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\roslyn\Microsoft.CSharp.Core.targets
+M:\SoftUni\Project\KTM\KTM.App\bin\roslyn\Microsoft.VisualBasic.Core.targets
+M:\SoftUni\Project\KTM\KTM.App\bin\roslyn\System.Collections.Immutable.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\roslyn\System.Reflection.Metadata.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\roslyn\vbc.exe
+M:\SoftUni\Project\KTM\KTM.App\bin\roslyn\VBCSCompiler.exe
+M:\SoftUni\Project\KTM\KTM.App\bin\roslyn\VBCSCompiler.exe.config
+M:\SoftUni\Project\KTM\KTM.App\bin\KTM.App.dll.config
+M:\SoftUni\Project\KTM\KTM.App\bin\KTM.App.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\KTM.App.pdb
+M:\SoftUni\Project\KTM\KTM.App\bin\Antlr3.Runtime.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\AutoMapper.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\EntityFramework.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\EntityFramework.SqlServer.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\KTM.Data.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\KTM.Models.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\Microsoft.AspNet.Identity.Core.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\Microsoft.AspNet.Identity.Owin.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\Microsoft.Owin.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\Microsoft.Owin.Host.SystemWeb.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\Microsoft.Owin.Security.Cookies.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\Microsoft.Owin.Security.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\Microsoft.Owin.Security.Facebook.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\Microsoft.Owin.Security.Google.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\Microsoft.Owin.Security.OAuth.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\Microsoft.Owin.Security.Twitter.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\Microsoft.Web.Infrastructure.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\Newtonsoft.Json.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\Ninject.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\Ninject.Web.Common.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\Ninject.Web.Mvc.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\Owin.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\System.Web.Helpers.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\System.Web.Mvc.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\System.Web.Optimization.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\System.Web.Razor.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\System.Web.WebPages.Deployment.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\System.Web.WebPages.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\System.Web.WebPages.Razor.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\WebActivatorEx.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\WebGrease.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\KTM.Data.pdb
+M:\SoftUni\Project\KTM\KTM.App\bin\KTM.Models.pdb
+M:\SoftUni\Project\KTM\KTM.App\bin\AutoMapper.xml
+M:\SoftUni\Project\KTM\KTM.App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+M:\SoftUni\Project\KTM\KTM.App\bin\Ninject.xml
+M:\SoftUni\Project\KTM\KTM.App\bin\Ninject.Web.Common.xml
+M:\SoftUni\Project\KTM\KTM.App\bin\Ninject.Web.Mvc.xml
+M:\SoftUni\Project\KTM\KTM.App\bin\System.Web.Helpers.xml
+M:\SoftUni\Project\KTM\KTM.App\bin\System.Web.Mvc.xml
+M:\SoftUni\Project\KTM\KTM.App\bin\System.Web.Optimization.xml
+M:\SoftUni\Project\KTM\KTM.App\bin\System.Web.Razor.xml
+M:\SoftUni\Project\KTM\KTM.App\bin\System.Web.WebPages.xml
+M:\SoftUni\Project\KTM\KTM.App\bin\System.Web.WebPages.Deployment.xml
+M:\SoftUni\Project\KTM\KTM.App\bin\System.Web.WebPages.Razor.xml
+M:\SoftUni\Project\KTM\KTM.App\bin\Antlr3.Runtime.pdb
+M:\SoftUni\Project\KTM\KTM.App\bin\Newtonsoft.Json.xml
+M:\SoftUni\Project\KTM\KTM.App\bin\EntityFramework.xml
+M:\SoftUni\Project\KTM\KTM.App\bin\EntityFramework.SqlServer.xml
+M:\SoftUni\Project\KTM\KTM.App\bin\Microsoft.AspNet.Identity.Core.xml
+M:\SoftUni\Project\KTM\KTM.App\bin\Microsoft.AspNet.Identity.Owin.xml
+M:\SoftUni\Project\KTM\KTM.App\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+M:\SoftUni\Project\KTM\KTM.App\bin\Microsoft.Owin.xml
+M:\SoftUni\Project\KTM\KTM.App\bin\Microsoft.Owin.Host.SystemWeb.xml
+M:\SoftUni\Project\KTM\KTM.App\bin\Microsoft.Owin.Security.xml
+M:\SoftUni\Project\KTM\KTM.App\bin\Microsoft.Owin.Security.Facebook.xml
+M:\SoftUni\Project\KTM\KTM.App\bin\Microsoft.Owin.Security.Cookies.xml
+M:\SoftUni\Project\KTM\KTM.App\bin\Microsoft.Owin.Security.OAuth.xml
+M:\SoftUni\Project\KTM\KTM.App\bin\Microsoft.Owin.Security.Google.xml
+M:\SoftUni\Project\KTM\KTM.App\bin\Microsoft.Owin.Security.Twitter.xml
+M:\SoftUni\Project\KTM\KTM.App\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+M:\SoftUni\Project\KTM\KTM.App\obj\Debug\KTM.App.csprojResolveAssemblyReference.cache
+M:\SoftUni\Project\KTM\KTM.App\obj\Debug\KTM.App.dll
+M:\SoftUni\Project\KTM\KTM.App\obj\Debug\KTM.App.pdb
+M:\SoftUni\Project\KTM\KTM.App\bin\Dropbox.Api.dll
+M:\SoftUni\Project\KTM\KTM.App\bin\Dropbox.Api.xml

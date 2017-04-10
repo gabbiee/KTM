@@ -1,0 +1,56 @@
+M:\SoftUni\Project\KTM\StreamPowered.Data\obj\Debug\KTM.Data.csprojResolveAssemblyReference.cache
+M:\SoftUni\Project\KTM\StreamPowered.Data\bin\Debug\KTM.Data.dll.config
+M:\SoftUni\Project\KTM\StreamPowered.Data\bin\Debug\KTM.Data.dll
+M:\SoftUni\Project\KTM\StreamPowered.Data\bin\Debug\KTM.Data.pdb
+M:\SoftUni\Project\KTM\StreamPowered.Data\bin\Debug\EntityFramework.dll
+M:\SoftUni\Project\KTM\StreamPowered.Data\bin\Debug\EntityFramework.SqlServer.dll
+M:\SoftUni\Project\KTM\StreamPowered.Data\bin\Debug\KTM.Models.dll
+M:\SoftUni\Project\KTM\StreamPowered.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+M:\SoftUni\Project\KTM\StreamPowered.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+M:\SoftUni\Project\KTM\StreamPowered.Data\bin\Debug\Newtonsoft.Json.dll
+M:\SoftUni\Project\KTM\StreamPowered.Data\bin\Debug\KTM.Models.pdb
+M:\SoftUni\Project\KTM\StreamPowered.Data\bin\Debug\EntityFramework.xml
+M:\SoftUni\Project\KTM\StreamPowered.Data\bin\Debug\EntityFramework.SqlServer.xml
+M:\SoftUni\Project\KTM\StreamPowered.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+M:\SoftUni\Project\KTM\StreamPowered.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+M:\SoftUni\Project\KTM\StreamPowered.Data\bin\Debug\Newtonsoft.Json.xml
+M:\SoftUni\Project\KTM\StreamPowered.Data\obj\Debug\KTM.Data.dll
+M:\SoftUni\Project\KTM\StreamPowered.Data\obj\Debug\KTM.Data.pdb
+M:\SoftUni\Project\KTM - Copy\KTM.Data\bin\Debug\KTM.Data.dll.config
+M:\SoftUni\Project\KTM - Copy\KTM.Data\bin\Debug\KTM.Data.dll
+M:\SoftUni\Project\KTM - Copy\KTM.Data\bin\Debug\KTM.Data.pdb
+M:\SoftUni\Project\KTM - Copy\KTM.Data\bin\Debug\EntityFramework.dll
+M:\SoftUni\Project\KTM - Copy\KTM.Data\bin\Debug\EntityFramework.SqlServer.dll
+M:\SoftUni\Project\KTM - Copy\KTM.Data\bin\Debug\KTM.Models.dll
+M:\SoftUni\Project\KTM - Copy\KTM.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+M:\SoftUni\Project\KTM - Copy\KTM.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+M:\SoftUni\Project\KTM - Copy\KTM.Data\bin\Debug\Newtonsoft.Json.dll
+M:\SoftUni\Project\KTM - Copy\KTM.Data\bin\Debug\KTM.Models.pdb
+M:\SoftUni\Project\KTM - Copy\KTM.Data\bin\Debug\EntityFramework.xml
+M:\SoftUni\Project\KTM - Copy\KTM.Data\bin\Debug\EntityFramework.SqlServer.xml
+M:\SoftUni\Project\KTM - Copy\KTM.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+M:\SoftUni\Project\KTM - Copy\KTM.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+M:\SoftUni\Project\KTM - Copy\KTM.Data\bin\Debug\Newtonsoft.Json.xml
+M:\SoftUni\Project\KTM - Copy\KTM.Data\obj\Debug\KTM.Data.csprojResolveAssemblyReference.cache
+M:\SoftUni\Project\KTM - Copy\KTM.Data\obj\Debug\KTM.Data.dll
+M:\SoftUni\Project\KTM - Copy\KTM.Data\obj\Debug\KTM.Data.pdb
+M:\SoftUni\Project\KTM\KTM.Data\bin\Debug\KTM.Data.dll.config
+M:\SoftUni\Project\KTM\KTM.Data\bin\Debug\KTM.Data.dll
+M:\SoftUni\Project\KTM\KTM.Data\bin\Debug\KTM.Data.pdb
+M:\SoftUni\Project\KTM\KTM.Data\bin\Debug\EntityFramework.dll
+M:\SoftUni\Project\KTM\KTM.Data\bin\Debug\EntityFramework.SqlServer.dll
+M:\SoftUni\Project\KTM\KTM.Data\bin\Debug\KTM.Models.dll
+M:\SoftUni\Project\KTM\KTM.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+M:\SoftUni\Project\KTM\KTM.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+M:\SoftUni\Project\KTM\KTM.Data\bin\Debug\Newtonsoft.Json.dll
+M:\SoftUni\Project\KTM\KTM.Data\bin\Debug\KTM.Models.pdb
+M:\SoftUni\Project\KTM\KTM.Data\bin\Debug\EntityFramework.xml
+M:\SoftUni\Project\KTM\KTM.Data\bin\Debug\EntityFramework.SqlServer.xml
+M:\SoftUni\Project\KTM\KTM.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+M:\SoftUni\Project\KTM\KTM.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+M:\SoftUni\Project\KTM\KTM.Data\bin\Debug\Newtonsoft.Json.xml
+M:\SoftUni\Project\KTM\KTM.Data\obj\Debug\KTM.Data.csprojResolveAssemblyReference.cache
+M:\SoftUni\Project\KTM\KTM.Data\obj\Debug\KTM.Data.dll
+M:\SoftUni\Project\KTM\KTM.Data\obj\Debug\KTM.Data.pdb
+M:\SoftUni\Project\KTM\KTM.Data\bin\Debug\Dropbox.Api.dll
+M:\SoftUni\Project\KTM\KTM.Data\bin\Debug\Dropbox.Api.xml

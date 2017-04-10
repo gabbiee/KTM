@@ -1,0 +1,28 @@
+﻿@model KTM.App.Models.BindingModels.ReviewBindingModel
+@if (User.Identity.IsAuthenticated)
+{
+    <div class="row">
+        <div class="col-md-9">
+            <div class="text-center">
+                @Html.ValidationSummary()
+                @using (Ajax.BeginForm(
+                "Add",
+                "Reviews",
+                new { id = Model.EntityId },
+                new AjaxOptions() { UpdateTargetId = "reviews-container", InsertionMode = InsertionMode.InsertAfter, OnSuccess = "updateReviewForm" },
+                new { id = "add-comment-form" }))
+                {
+                    @Html.TextAreaFor(m => m.Content, new { @class = "form-control", rows = 3, placeholder = "Write a review...", id = "content" })
+             <input type="submit" id="add-review-button" value="Add review" class="btn btn-primary" />
+                }
+
+            </div>
+        </div>
+    </div>
+}
+<script>
+    function updateReviewForm() {
+        $("#no-reviews").hide();
+        $("#content").val("");
+    }
+</script>

@@ -1,0 +1,55 @@
+﻿@using System.Globalization;
+@using KTM.App.Models.BindingModels;
+@model KTM.App.Models.ViewModels.NewsDetailsViewModel
+@{
+    ViewBag.Title = Model.Title;
+}
+<h2>@Model.Title</h2>
+
+
+<div class="row">
+    @foreach (var url in Model.ImageUrls)
+            {
+        <div class="text-center">
+            <img src="@url" class="col-md-9 " />
+        </div>
+    }
+</div>
+<br />
+
+@*<h4>Description:</h4>*@
+<div class="text-center">
+    <p>@Model.Content</p>
+
+
+
+    @*<h4>Images:</h4>
+        <div class="row">
+            @foreach (var url in Model.ImageUrls)
+            {
+                <img src="@url" class="col-md-3" />
+            }
+        </div>*@
+
+    @*<h3>Comments:</h3>
+    @{
+        var commentModel = new ReviewBindingModel() { EntityId = Model.Id };
+    }<div class="text-center">
+        <div id="new-review">
+            @Html.Partial("_AddComment", commentModel)
+        </div>
+    </div>
+</div>
+<br />*@
+@*<div id="reviews-container">
+    @if (!Model.Comments.Any())
+    {
+        @:
+        <p>No comments yet.</p>
+    }
+    else
+    {
+        @Html.DisplayFor(m => m.Comments)
+    }
+</div>*@
+

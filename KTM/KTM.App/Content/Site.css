@@ -1,0 +1,135 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+.review-author {
+    font-weight: bold;
+}
+
+.label-warning {
+  background-color: #f27620;
+}
+.label-warning[href]:hover,
+.label-warning[href]:focus {
+  background-color: #f27620;
+}
+
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: black;
+  text-decoration: none;
+  background-color: #f27620;
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  color: black;
+  text-decoration: none;
+  background-color: #f27620;
+  outline: 0;
+}
+
+.label-primary {
+  background-color: #514e4c;
+}
+
+.label-primary[href]:hover,
+.label-primary[href]:focus {
+  background-color: #514e4c;
+}
+
+.btn-default {
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+
+    .btn-default:hover,
+    .btn-default:focus,
+    .btn-default:active,
+    .btn-default.active,
+    .open .dropdown-toggle.btn-default {
+        color: #333333;
+        background-color: #ebebeb;
+        border-color: #adadad;
+    }
+
+    .btn-primary {
+        background-color: #333333;
+        border-color: #adadad;
+    }
+
+    .btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color:#514e4c;
+  border-color: #333333;
+}
+
+    .btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #514e4c;
+  border-color: #333333;
+}
+
+    .btn-link:hover,
+.btn-link:focus {
+  color: #f27620;
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+.text-center {
+     margin:0 auto;
+}
+.jumbotron {
+    margin: auto;
+
+background-image: url(http://www.ktm.com/globalassets/home/2016/naked-startseite-duke-2017.jpg);
+    min-height: 400px;
+
+background-size: contain;
+background-repeat: no-repeat;
+    height: 660px;
+color: white;
+text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.carousel-control.left {
+  background-image: none;
+}
+.carousel-control.right {
+  background-image: none;
+}

@@ -1,0 +1,8 @@
+﻿@model IEnumerable<KTM.App.Models.ViewModels.ConciseMotorcycleViewModel>
+@{
+    ViewBag.Title = "All Motorcycles";
+}
+
+<h2>@ViewBag.Title</h2>
+@Html.DisplayForModel()
+@Html.Partial("_Pagination")
