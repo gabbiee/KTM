@@ -8,6 +8,7 @@
     using Microsoft.Owin.Security.Cookies;
     using Owin;
     using KTM.Models;
+    using Microsoft.Owin.Security.Google;
 
     public partial class Startup
     {
@@ -58,11 +59,11 @@
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "278703909185-ha74q4sc1grjp7ga9gi6j2qqkq1c0aju.apps.googleusercontent.com",
+                ClientSecret = "5cYlM3WSUxUstXDBXns8CvYj"
+            });
         }
 
     }

@@ -11,6 +11,7 @@
     <WebStackScaffolding_AreaDialogWidth>600</WebStackScaffolding_AreaDialogWidth>
     <UseIISExpress>true</UseIISExpress>
     <NameOfLastUsedPublishProfile>ktmracing - Web Deploy</NameOfLastUsedPublishProfile>
+    <IISExpressSSLPort>44371</IISExpressSSLPort>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

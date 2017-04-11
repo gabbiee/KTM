@@ -7,6 +7,7 @@
     using Data.UnitOfWork;
     using Models.ViewModels;
 
+    [RequireHttps]
     public class HomeController : BaseController
     {
         public HomeController(IKTMData data)

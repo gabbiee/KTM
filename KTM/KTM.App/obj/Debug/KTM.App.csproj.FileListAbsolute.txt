@@ -246,18 +246,6 @@ M:\SoftUni\Project\KTM\KTM.App\obj\Debug\KTM.App.dll
 M:\SoftUni\Project\KTM\KTM.App\obj\Debug\KTM.App.pdb
 M:\SoftUni\Project\KTM\KTM.App\bin\Dropbox.Api.dll
 M:\SoftUni\Project\KTM\KTM.App\bin\Dropbox.Api.xml
-C:\Users\smile\repos\ktm\KTM\KTM.App\bin\roslyn\csc.exe
-C:\Users\smile\repos\ktm\KTM\KTM.App\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\smile\repos\ktm\KTM\KTM.App\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\smile\repos\ktm\KTM\KTM.App\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\smile\repos\ktm\KTM\KTM.App\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\smile\repos\ktm\KTM\KTM.App\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\smile\repos\ktm\KTM\KTM.App\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\smile\repos\ktm\KTM\KTM.App\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\smile\repos\ktm\KTM\KTM.App\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\smile\repos\ktm\KTM\KTM.App\bin\roslyn\vbc.exe
-C:\Users\smile\repos\ktm\KTM\KTM.App\bin\roslyn\VBCSCompiler.exe
-C:\Users\smile\repos\ktm\KTM\KTM.App\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\smile\repos\ktm\KTM\KTM.App\bin\KTM.App.dll.config
 C:\Users\smile\repos\ktm\KTM\KTM.App\bin\KTM.App.dll
 C:\Users\smile\repos\ktm\KTM\KTM.App\bin\KTM.App.pdb
@@ -270,7 +258,6 @@ C:\Users\smile\repos\ktm\KTM\KTM.App\bin\KTM.Models.dll
 C:\Users\smile\repos\ktm\KTM\KTM.App\bin\Microsoft.AspNet.Identity.Core.dll
 C:\Users\smile\repos\ktm\KTM\KTM.App\bin\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Users\smile\repos\ktm\KTM\KTM.App\bin\Microsoft.AspNet.Identity.Owin.dll
-C:\Users\smile\repos\ktm\KTM\KTM.App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\smile\repos\ktm\KTM\KTM.App\bin\Microsoft.Owin.dll
 C:\Users\smile\repos\ktm\KTM\KTM.App\bin\Microsoft.Owin.Host.SystemWeb.dll
 C:\Users\smile\repos\ktm\KTM\KTM.App\bin\Microsoft.Owin.Security.Cookies.dll
@@ -298,7 +285,6 @@ C:\Users\smile\repos\ktm\KTM\KTM.App\bin\WebGrease.dll
 C:\Users\smile\repos\ktm\KTM\KTM.App\bin\KTM.Data.pdb
 C:\Users\smile\repos\ktm\KTM\KTM.App\bin\KTM.Models.pdb
 C:\Users\smile\repos\ktm\KTM\KTM.App\bin\AutoMapper.xml
-C:\Users\smile\repos\ktm\KTM\KTM.App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\smile\repos\ktm\KTM\KTM.App\bin\Newtonsoft.Json.xml
 C:\Users\smile\repos\ktm\KTM\KTM.App\bin\Ninject.xml
 C:\Users\smile\repos\ktm\KTM\KTM.App\bin\Ninject.Web.Common.xml
@@ -333,3 +319,5 @@ C:\Users\smile\repos\ktm\KTM\KTM.App\bin\Zlib.Portable.dll
 C:\Users\smile\repos\ktm\KTM\KTM.App\bin\Google.Apis.Core.pdb
 C:\Users\smile\repos\ktm\KTM\KTM.App\bin\Google.Apis.Core.xml
 C:\Users\smile\repos\ktm\KTM\KTM.App\bin\Zlib.Portable.xml
+C:\Users\smile\repos\ktm\KTM\KTM.App\bin\AutoMapper.Net4.dll
+C:\Users\smile\repos\ktm\KTM\KTM.App\bin\WebActivator.dll

@@ -1,14 +1,13 @@
-using KTM.App;
+[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(KTM.App.App_Start.NinjectWebCommon), "Start")]
+[assembly: WebActivatorEx.ApplicationShutdownMethodAttribute(typeof(KTM.App.App_Start.NinjectWebCommon), "Stop")]
 
-[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(NinjectWebCommon), "Start")]
-[assembly: WebActivatorEx.ApplicationShutdownMethodAttribute(typeof(NinjectWebCommon), "Stop")]
-
-namespace KTM.App
+namespace KTM.App.App_Start
 {
     using System;
     using System.Web;
     using Data.UnitOfWork;
     using Microsoft.Web.Infrastructure.DynamicModuleHelper;
+
     using Ninject;
     using Ninject.Web.Common;
 
