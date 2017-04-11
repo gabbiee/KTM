@@ -1,0 +1,32 @@
+﻿@using System.Globalization;
+@model KTM.App.Models.ViewModels.ConciseNewsViewModel
+
+@*<h3>@Html.ActionLink(Model.Title, "Details", "News", routeValues: new {id = Model.Id}, htmlAttributes: null)
+    </h3>*@
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6"><img src="@Model.CoverImageUrl" class="img-responsive homepage-image" @*width="410" height="307"*@>
+        </div>
+        <div class="col-md-6">
+            <h1>@Model.Title</h1><a href='@Url.Action("Details", "News", routeValues: new {id = Model.Id})' class="btn btn-primary">Read more</a>
+        </div>
+        @*<span>*@
+        @*<img src="@Model.CoverImageUrl" class="img-responsive homepage-image" />*@
+
+        @*<h3>
+                            @Model.Title*@
+        @*@Html.ActionLink(Model.Title, "Details", "News", routeValues: new { id = Model.Id }, htmlAttributes: null)*@
+        @*</h3>*@
+        @*<input type="submit" id="add-review-button" value="Read more" class="btn btn-primary" />*@
+        @*<a href='@Url.Action("Details", "News",routeValues: new { id = Model.Id })' class="btn btn-primary">Read more</a>*@
+
+
+        @*</span>*@
+
+    </div>
+    <br />
+       
+  
+</div>
+@*<img src="@Model.CoverImageUrl" class="img-responsive homepage-image" />*@

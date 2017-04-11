@@ -14,8 +14,8 @@
 
         public string Description { get; set; }
 
-        [Display(Name = "System requirements")]
-        public string SystemRequirements { get; set; }
+        [Display(Name = "Engine")]
+        public string Engine { get; set; }
 
         [Display(Name = "Category")]
         public int CategoryId { get; set; }

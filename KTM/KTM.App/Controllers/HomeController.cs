@@ -19,7 +19,7 @@
             const int HomePageItems = 5;
             var highestRatedMotorcycles = this.Data.Motorcycles.All()
                 .OrderByDescending(c => c.Ratings.Average(r => r.Value))
-                .ThenBy(g => g.Title)
+                .ThenBy(m => m.Title)
                 .Take(HomePageItems);
             var latestReviews = this.Data.Reviews.All()
                 .OrderByDescending(r => r.CreationTime)

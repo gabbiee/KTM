@@ -1,0 +1,16 @@
+C:\Users\smile\repos\ktm\KTM\KTM.Models\bin\Release\KTM.Models.dll.config
+C:\Users\smile\repos\ktm\KTM\KTM.Models\bin\Release\KTM.Models.dll
+C:\Users\smile\repos\ktm\KTM\KTM.Models\bin\Release\KTM.Models.pdb
+C:\Users\smile\repos\ktm\KTM\KTM.Models\bin\Release\EntityFramework.dll
+C:\Users\smile\repos\ktm\KTM\KTM.Models\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\smile\repos\ktm\KTM\KTM.Models\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\Users\smile\repos\ktm\KTM\KTM.Models\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\smile\repos\ktm\KTM\KTM.Models\bin\Release\Newtonsoft.Json.dll
+C:\Users\smile\repos\ktm\KTM\KTM.Models\bin\Release\EntityFramework.xml
+C:\Users\smile\repos\ktm\KTM\KTM.Models\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\smile\repos\ktm\KTM\KTM.Models\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Users\smile\repos\ktm\KTM\KTM.Models\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\smile\repos\ktm\KTM\KTM.Models\bin\Release\Newtonsoft.Json.xml
+C:\Users\smile\repos\ktm\KTM\KTM.Models\obj\Release\KTM.Models.csprojResolveAssemblyReference.cache
+C:\Users\smile\repos\ktm\KTM\KTM.Models\obj\Release\KTM.Models.dll
+C:\Users\smile\repos\ktm\KTM\KTM.Models\obj\Release\KTM.Models.pdb

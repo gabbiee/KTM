@@ -1,0 +1,15 @@
+﻿@model IEnumerable<KTM.App.Models.ViewModels.ConciseMotorcycleViewModel>
+@{
+    ViewBag.Title = ViewBag.Category;
+}
+
+<h2>All Motorcycles in <span class="label label-primary">@ViewBag.Category</span></h2>
+@if (!Model.Any())
+{
+    @:<p>No motorcycle in this category yet.</p>
+}
+else
+{
+    @Html.DisplayForModel()
+}
+
