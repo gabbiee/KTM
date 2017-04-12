@@ -47,13 +47,13 @@
 <br />
 
 @*<h4>Description:</h4>*@
-<div class="text-center">
-    <p>@Model.Description</p>
+
+    <h3>@Html.Raw(Model.Description)</h3>
 
 
     <h3>Engine</h3>
 
-    <p>@Model.Engine</p>
+    <p>@Html.Raw(Model.Engine)</p>
 
 
     @*<h4>Images:</h4>
@@ -86,4 +86,4 @@
             @Html.DisplayFor(m => m.Reviews)
         }
     </div>
-</div>
+

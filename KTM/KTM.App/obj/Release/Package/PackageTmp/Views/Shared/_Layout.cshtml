@@ -24,14 +24,16 @@
                 @*<img src="../../Content/KTM-Logo.png">*@
                 @*@Html.ActionLink("KTM", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
                 <a href="@Url.Action("Index", "Home")" title="KTM" class="links">
-                    <img alt="KTM" src="../../Content/KTM-Logo.png">
+                    <img alt="KTM" src="https://drive.google.com/uc?id=0ByuTp8DIw-KvRlVSWHNlcUg3Z2s">
                 </a>
 
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("All Motorcycles", "Index", "Motorcycles")</li>
-                    <li>@Html.ActionLink("All News", "Index", "News")</li>
+                    @*<li>@Html.ActionLink("All Motorcycles", "Index", "Motorcycles")</li>
+                    <li>@Html.ActionLink("All News", "Index", "News")</li>*@
+                    <li>@Html.ActionLink("All Motorcycles", "Index", "Motorcycles", new { area = "" }, new { @class = "navbar-nav" })</li>
+                    <li>@Html.ActionLink("All News", "Index", "News", new { area = "" }, new { @class = "navbar-nav" })</li>
                     @Html.Action("All", "Categories", routeValues: new { area = "" })
                     @if (User.IsInRole("Admin"))
                     {
