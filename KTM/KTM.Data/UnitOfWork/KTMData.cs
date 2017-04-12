@@ -6,7 +6,7 @@
     using Microsoft.AspNet.Identity;
     using Microsoft.AspNet.Identity.EntityFramework;
     using Repositories;
-    using KTM.Models;
+    using Models.EntityModels;
 
     public class KTMData : IKTMData
     {

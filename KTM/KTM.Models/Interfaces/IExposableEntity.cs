@@ -1,6 +1,7 @@
 ﻿namespace KTM.Models.Interfaces
 {
     using System.Collections.Generic;
+    using EntityModels;
 
     public interface IExposableEntity
     {

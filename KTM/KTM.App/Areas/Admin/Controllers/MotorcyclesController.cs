@@ -5,12 +5,12 @@
     using System.Linq;
     using System.Web.Mvc;
     using App.Controllers;
-    using App.Models.ViewModels;
     using AutoMapper;
     using Data.UnitOfWork;
     using Microsoft.AspNet.Identity;
     using Models.BindingModels;
-    using KTM.Models;
+    using KTM.Models.EntityModels;
+    using KTM.Models.ViewModels;
 
 
     [Authorize(Roles = "Admin")]

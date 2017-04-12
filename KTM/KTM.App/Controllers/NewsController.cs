@@ -1,7 +1,6 @@
 ﻿namespace KTM.App.Controllers
 {
     using System.Collections.Generic;
-    using System.Data.Entity;
     using System.Linq;
     using System.Web.Mvc;
     using AutoMapper;
@@ -27,24 +26,7 @@
             return this.View(model);
         }
 
-        //public ActionResult Details(int id)
-        //{
-        //    var news = this.Data.News.All()
-        //   .Include(n=>n.Title)
-        //        .Include(n => n.Reviews)
-        //        .Include(n => n.Content)
-        //        .FirstOrDefault(n => n.Id == id);
-        //    if (news == null)
-        //    {
-        //        return this.HttpNotFound("The requested news were not found in the system.");
-        //    }
-
-        //    var model = Mapper.Map<NewsDetailsViewModel>(news);
-        //    return this.View(model);
-        //}
-
-
-        public ActionResult Details(int id)
+     public ActionResult Details(int id)
         {
             var news = this.Data.News.All()
       

@@ -226,18 +226,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="HtmlHelpers\HtmlHelperExtensions.cs" />
-    <Compile Include="Models\BindingModels\RatingBindingModel.cs" />
-    <Compile Include="Models\BindingModels\ReviewBindingModel.cs" />
-    <Compile Include="Models\ViewModels\AccountViewModels.cs" />
-    <Compile Include="Models\ViewModels\ConciseMotorcycleViewModel.cs" />
-    <Compile Include="Models\ViewModels\ConciseNewsViewModel.cs" />
-    <Compile Include="Models\ViewModels\MotorcycleDetailsViewModel.cs" />
-    <Compile Include="Models\ViewModels\HomePageViewModel.cs" />
-    <Compile Include="Models\ViewModels\ManageViewModels.cs" />
-    <Compile Include="Models\ViewModels\ConciseReviewViewModel.cs" />
-    <Compile Include="Models\ViewModels\NewsDetailsViewModel.cs" />
-    <Compile Include="Models\ViewModels\RatingViewModel.cs" />
-    <Compile Include="Models\ViewModels\ReviewViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -248,7 +236,6 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="App_Data\seed.json" />
     <Content Include="Areas\Admin\Views\web.config" />
     <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Admin\Views\Motorcycles\Add.cshtml" />
@@ -343,6 +330,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Models\ViewModels\" />
   </ItemGroup>
   <PropertyGroup>

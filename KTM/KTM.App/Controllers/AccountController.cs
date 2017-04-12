@@ -7,8 +7,9 @@
     using Microsoft.AspNet.Identity;
     using Microsoft.AspNet.Identity.Owin;
     using Microsoft.Owin.Security;
-    using Models.ViewModels;
     using KTM.Models;
+    using KTM.Models.EntityModels;
+    using Models.ViewModels;
 
     [Authorize]
     public class AccountController : Controller

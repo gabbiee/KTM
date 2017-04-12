@@ -1,7 +1,7 @@
 ﻿namespace KTM.Data.UnitOfWork
 {
     using Repositories;
-    using KTM.Models;
+    using Models.EntityModels;
 
     public interface IKTMData
     {

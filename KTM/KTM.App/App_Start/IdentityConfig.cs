@@ -10,6 +10,7 @@
     using Microsoft.Owin;
     using Microsoft.Owin.Security;
     using KTM.Models;
+    using KTM.Models.EntityModels;
 
     public class EmailService : IIdentityMessageService
     {

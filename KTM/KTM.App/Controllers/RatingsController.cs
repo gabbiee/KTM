@@ -6,9 +6,9 @@
     using AutoMapper;
     using Data.UnitOfWork;
     using Microsoft.AspNet.Identity;
-    using Models.BindingModels;
+    using KTM.Models.BindingModels;
+    using Models.EntityModels;
     using Models.ViewModels;
-    using KTM.Models;
 
     public class RatingsController : BaseController
     {
