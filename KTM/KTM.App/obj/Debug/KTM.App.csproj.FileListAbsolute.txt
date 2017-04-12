@@ -321,3 +321,5 @@ C:\Users\smile\repos\ktm\KTM\KTM.App\bin\Google.Apis.Core.xml
 C:\Users\smile\repos\ktm\KTM\KTM.App\bin\Zlib.Portable.xml
 C:\Users\smile\repos\ktm\KTM\KTM.App\bin\AutoMapper.Net4.dll
 C:\Users\smile\repos\ktm\KTM\KTM.App\bin\WebActivator.dll
+C:\Users\smile\repos\ktm\KTM\KTM.App\bin\KTM.Services.dll
+C:\Users\smile\repos\ktm\KTM\KTM.App\bin\KTM.Services.pdb

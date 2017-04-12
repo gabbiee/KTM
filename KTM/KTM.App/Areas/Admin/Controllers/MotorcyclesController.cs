@@ -11,10 +11,11 @@
     using Models.BindingModels;
     using KTM.Models.EntityModels;
     using KTM.Models.ViewModels;
+    using Controller = App.Controllers.Controller;
 
 
     [Authorize(Roles = "Admin")]
-    public class MotorcyclesController : BaseController
+    public class MotorcyclesController : Controller
     {
         public MotorcyclesController(IKTMData data)
             : base(data)

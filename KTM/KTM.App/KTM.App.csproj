@@ -214,7 +214,7 @@
     <Compile Include="Areas\Admin\Controllers\MotorcyclesController.cs" />
     <Compile Include="Areas\Admin\Models\BindingModels\MotorcycleBindingModel.cs" />
     <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\Controller.cs" />
     <Compile Include="Controllers\MotorcyclesController.cs" />
     <Compile Include="Controllers\CategoriesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -327,6 +327,10 @@
     <ProjectReference Include="..\KTM.Models\KTM.Models.csproj">
       <Project>{e4c005c1-cab5-401a-ad59-d948e1906c4f}</Project>
       <Name>KTM.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KTM.Services\KTM.Services.csproj">
+      <Project>{97ca91a1-eefd-458c-b3a1-9c392e4bbacc}</Project>
+      <Name>KTM.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

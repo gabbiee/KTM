@@ -12,7 +12,7 @@
     using Models.ViewModels;
 
     [Authorize]
-    public class AccountController : Controller
+    public class AccountController : System.Web.Mvc.Controller
     {
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
