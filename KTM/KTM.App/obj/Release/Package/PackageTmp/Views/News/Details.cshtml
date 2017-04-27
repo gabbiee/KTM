@@ -1,13 +1,13 @@
 ﻿@using System.Globalization;
-@using KTM.App.Models.BindingModels;
-@model KTM.App.Models.ViewModels.NewsDetailsViewModel
+@model KTM.Models.ViewModels.NewsDetailsViewModel
 @{
     ViewBag.Title = Model.Title;
 }
+<br />
 <h2>@Model.Title</h2>
 
 
-<div class="row">
+@*<div class="row">
     @foreach (var url in Model.ImageUrls)
             {
         <div class="text-center">
@@ -15,12 +15,36 @@
         </div>
     }
 </div>
+<br />*@
+<!-- Carousel
+================================================== -->
+<div id="myCarousel" class="carousel slide">
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="@Model.ImageUrls.First()">
+        </div>
+
+        @foreach (var url in Model.ImageUrls.Skip(1))
+        {
+            <div class="item">
+                <img src="@url" alt="">
+            </div>
+        }
+
+
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev"></a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next"></a>
+
+
+</div><!-- /.carousel -->
+
+
 <br />
-
 @*<h4>Description:</h4>*@
-<div class="text-center">
-    <p>@Model.Content</p>
-
+@*<div class="text-center">*@
+    @*<p>@Model.Content</p>*@
+<p>@Html.Raw(Model.Content)</p>
 
 
     @*<h4>Images:</h4>

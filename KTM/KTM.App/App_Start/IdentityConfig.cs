@@ -1,6 +1,7 @@
 ﻿namespace KTM.App
 {
     using System;
+    using System.Diagnostics;
     using System.Security.Claims;
     using System.Threading.Tasks;
     using Data;
@@ -9,9 +10,9 @@
     using Microsoft.AspNet.Identity.Owin;
     using Microsoft.Owin;
     using Microsoft.Owin.Security;
-    using KTM.Models;
-    using KTM.Models.EntityModels;
-
+    using Models.EntityModels;
+    using Twilio;
+  
     public class EmailService : IIdentityMessageService
     {
         public Task SendAsync(IdentityMessage message)
@@ -26,7 +27,23 @@
         public Task SendAsync(IdentityMessage message)
         {
             // Plug in your SMS service here to send a text message.
-            return Task.FromResult(0);
+
+            // Twilio Begin
+            var Twilio = new TwilioRestClient(
+              System.Configuration.ConfigurationManager.AppSettings["SMSAccountIdentification"],
+              System.Configuration.ConfigurationManager.AppSettings["SMSAccountPassword"]);
+            var result = Twilio.SendMessage(
+              System.Configuration.ConfigurationManager.AppSettings["SMSAccountFrom"],
+              message.Destination, message.Body
+            );
+            //Status is one of Queued, Sending, Sent, Failed or null if the number is not valid
+            // Trace.TraceInformation(result.Status);
+            //Twilio doesn't currently have an async API, so return success.
+             return Task.FromResult(0);
+            // Twilio End
+
+
+            //  return Task.FromResult(0);
         }
     }
 
@@ -38,7 +55,7 @@
         {
         }
 
-        public static ApplicationUserManager Create(IdentityFactoryOptions<ApplicationUserManager> options, IOwinContext context) 
+        public static ApplicationUserManager Create(IdentityFactoryOptions<ApplicationUserManager> options, IOwinContext context)
         {
             var manager = new ApplicationUserManager(new UserStore<User>(context.Get<KTMContext>()));
             // Configure validation logic for usernames
@@ -77,7 +94,7 @@
             var dataProtectionProvider = options.DataProtectionProvider;
             if (dataProtectionProvider != null)
             {
-                manager.UserTokenProvider = 
+                manager.UserTokenProvider =
                     new DataProtectorTokenProvider<User>(dataProtectionProvider.Create("ASP.NET Identity"));
             }
             return manager;

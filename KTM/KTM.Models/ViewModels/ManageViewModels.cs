@@ -59,7 +59,7 @@
         public string ConfirmPassword { get; set; }
     }
 
-    public class AddPhoneNumberViewModel
+    public partial class AddPhoneNumberViewModel
     {
         [Required]
         [Phone]

@@ -7,8 +7,8 @@
     {
         public News()
         {
-            this.ImageUrls=new HashSet<ImageUrl>();
-            //this.Reviews=new HashSet<Review>();
+            this.ImageUrls = new HashSet<ImageUrl>();
+
         }
         public int Id { get; set; }
 
@@ -16,11 +16,7 @@
         public string Title { get; set; }
         [Required]
         public string Content { get; set; }
-
-      //  public string  ImageUrl {get;set;}
-
-       // public virtual ICollection<Review> Comments { get; set; }
-     //public virtual ICollection<Review> Reviews { get; set; }
-        public virtual  ICollection<ImageUrl> ImageUrls { get; set; }
+        
+        public virtual ICollection<ImageUrl> ImageUrls { get; set; }
     }
 }

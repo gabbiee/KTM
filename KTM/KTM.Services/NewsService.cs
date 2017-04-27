@@ -1,13 +1,16 @@
 ﻿namespace KTM.Services
 {
+    using System;
     using System.Collections.Generic;
     using System.Linq;
+    using System.Web.Mvc;
     using AutoMapper;
     using Data.UnitOfWork;
+    using Interfaces;
     using Models.EntityModels;
     using Models.ViewModels;
 
-    public class NewsService:Service
+    public class NewsService:Service, INewsService
     {
         protected IKTMData data;
 
@@ -34,10 +37,16 @@
             return models;
         }
 
+        [HandleError(ExceptionType = typeof(ArgumentException), View = "CustomError")]
         public News GetNewsById(int id)
         {
             var news = this.data.News.All()
                 .FirstOrDefault(g => g.Id == id);
+
+            if (news == null)
+            {
+                throw new ArgumentException("News not found");
+            }
 
             return news;
         }
@@ -48,6 +57,7 @@
             return model;
         }
 
+        [HandleError(ExceptionType = typeof(ArgumentException), View = "CustomError")]
         public NewsDetailsViewModel GetDetails(int id)
         {
             var news = this.data.News.All()
@@ -55,7 +65,7 @@
 
             if (news == null)
             {
-                return null;
+                throw new ArgumentException("News not found");
             }
 
             var model = Mapper.Map<NewsDetailsViewModel>(news);

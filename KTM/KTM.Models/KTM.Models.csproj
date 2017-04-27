@@ -104,9 +104,11 @@
     <Compile Include="EntityModels\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\AccountViewModels.cs" />
+    <Compile Include="ViewModels\ChatViewModel.cs" />
     <Compile Include="ViewModels\ConciseMotorcycleViewModel.cs" />
     <Compile Include="ViewModels\ConciseNewsViewModel.cs" />
     <Compile Include="ViewModels\ConciseReviewViewModel.cs" />
+    <Compile Include="ViewModels\ContactPageViewModel.cs" />
     <Compile Include="ViewModels\HomePageViewModel.cs" />
     <Compile Include="ViewModels\ManageViewModels.cs" />
     <Compile Include="ViewModels\MotorcycleDetailsViewModel.cs" />

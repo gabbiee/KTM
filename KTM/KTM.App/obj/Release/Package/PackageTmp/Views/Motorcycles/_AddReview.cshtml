@@ -1,8 +1,8 @@
-﻿@model KTM.App.Models.BindingModels.ReviewBindingModel
+﻿@model KTM.Models.BindingModels.ReviewBindingModel
 @if (User.Identity.IsAuthenticated)
 {
     <div class="row">
-        <div class="col-md-9">
+        <div class="col-md-12">
             <div class="text-center">
                 @Html.ValidationSummary()
                 @using (Ajax.BeginForm(

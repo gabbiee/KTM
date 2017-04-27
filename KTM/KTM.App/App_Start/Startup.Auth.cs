@@ -7,8 +7,7 @@
     using Microsoft.Owin;
     using Microsoft.Owin.Security.Cookies;
     using Owin;
-    using KTM.Models;
-    using KTM.Models.EntityModels;
+    using Models.EntityModels;
     using Microsoft.Owin.Security.Google;
 
     public partial class Startup

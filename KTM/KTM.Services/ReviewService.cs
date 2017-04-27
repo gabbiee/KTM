@@ -1,13 +1,15 @@
 ﻿namespace KTM.Services
 {
     using System;
+    using System.Web.Mvc;
     using AutoMapper;
     using Data;
     using Data.UnitOfWork;
+    using Interfaces;
     using Models.EntityModels;
     using Models.ViewModels;
 
-    public class ReviewService:Service
+    public class ReviewService:Service, IReviewService
     {
        protected IKTMData data;
        // protected KTMContext Context;
@@ -33,13 +35,14 @@
             return model;
         }
 
+        [HandleError(ExceptionType = typeof(ArgumentException), View = "CustomError")]
         public Motorcycle GetMotorcycle(int id)
         {
             var motorcycle = this.data.Motorcycles.Find(id);
 
             if (motorcycle == null)
             {
-                return null;
+                throw new ArgumentException("Motorcycle not found");
             }
 
             return motorcycle;

@@ -1,7 +1,6 @@
 ﻿namespace KTM.App.Controllers
 {
-    using System.Web.Mvc;
-    using Data.UnitOfWork;
+  using Data.UnitOfWork;
 
     public abstract class Controller : System.Web.Mvc.Controller
     {

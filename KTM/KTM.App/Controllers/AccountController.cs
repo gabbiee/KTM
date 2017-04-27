@@ -7,8 +7,7 @@
     using Microsoft.AspNet.Identity;
     using Microsoft.AspNet.Identity.Owin;
     using Microsoft.Owin.Security;
-    using KTM.Models;
-    using KTM.Models.EntityModels;
+    using Models.EntityModels;
     using Models.ViewModels;
 
     [Authorize]

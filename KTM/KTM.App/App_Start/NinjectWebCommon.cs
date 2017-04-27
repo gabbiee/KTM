@@ -11,6 +11,8 @@ namespace KTM.App
     using Microsoft.Web.Infrastructure.DynamicModuleHelper;
     using Ninject;
     using Ninject.Web.Common;
+    using Services;
+    using Services.Interfaces;
 
     public static class NinjectWebCommon 
     {
@@ -63,6 +65,15 @@ namespace KTM.App
         private static void RegisterServices(IKernel kernel)
         {
             kernel.Bind<IKTMData>().To<KTMData>();
+            kernel.Bind<IService>().To<Service>();
+            kernel.Bind<ICategoriesService>().To<CategoriesService>();
+            kernel.Bind<IContactService>().To<ContactService>();
+            kernel.Bind<IHomeService>().To<HomeService>();
+            kernel.Bind<IMotorcycleService>().To<MotorcycleService>();
+            kernel.Bind<INewsService>().To<NewsService>();
+            kernel.Bind<IRatingService>().To<RatingsService>();
+            kernel.Bind<IReviewService>().To<ReviewService>();
+            kernel.Bind<IChatService>().To<ChatService>();
         }        
     }
 }

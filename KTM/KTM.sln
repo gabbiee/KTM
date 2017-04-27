@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KTM.Data", "KTM.Data\KTM.Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KTM.Services", "KTM.Services\KTM.Services.csproj", "{97CA91A1-EEFD-458C-B3A1-9C392E4BBACC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KTM.Tests", "KTM.Tests\KTM.Tests.csproj", "{3AB600C3-7BF3-4086-B032-87BA4AF26C15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{97CA91A1-EEFD-458C-B3A1-9C392E4BBACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97CA91A1-EEFD-458C-B3A1-9C392E4BBACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97CA91A1-EEFD-458C-B3A1-9C392E4BBACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AB600C3-7BF3-4086-B032-87BA4AF26C15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AB600C3-7BF3-4086-B032-87BA4AF26C15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AB600C3-7BF3-4086-B032-87BA4AF26C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AB600C3-7BF3-4086-B032-87BA4AF26C15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

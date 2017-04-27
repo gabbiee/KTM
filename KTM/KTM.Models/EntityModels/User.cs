@@ -1,6 +1,7 @@
 ﻿namespace KTM.Models.EntityModels
 {
     using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
     using System.Security.Claims;
     using System.Threading.Tasks;
     using Microsoft.AspNet.Identity;
@@ -15,7 +16,8 @@
             this.Ratings = new HashSet<Rating>();
         }
 
-        public virtual ICollection<Motorcycle> CreatedMotorcycles { get; set; }
+      
+      public virtual ICollection<Motorcycle> CreatedMotorcycles { get; set; }
 
         public virtual ICollection<Review> Reviews { get; set; }
 

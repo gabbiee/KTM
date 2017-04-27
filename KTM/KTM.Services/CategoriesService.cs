@@ -1,14 +1,16 @@
 ﻿namespace KTM.Services
 {
+    using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Web.Mvc;
     using AutoMapper;
     using Data.UnitOfWork;
+    using Interfaces;
     using Models.EntityModels;
     using Models.ViewModels;
 
-    public class CategoriesService:Service
+    public class CategoriesService:Service, ICategoriesService
     {
         protected IKTMData data;
 
@@ -26,9 +28,14 @@
             return categories;
         }
 
+        [HandleError(ExceptionType = typeof(ArgumentException), View = "CustomError")]
         public Category GetCategoryById(int id)
         {
             var category = this.data.Categories.Find(id);
+            if (category == null)
+            {
+               throw new ArgumentException("Category not found");
+            }
 
             return category;
         }

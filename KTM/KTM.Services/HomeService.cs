@@ -4,8 +4,9 @@
     using System.Linq;
     using AutoMapper;
     using Data.UnitOfWork;
+    using Interfaces;
     using Models.ViewModels;
-    public class HomeService : Service
+    public class HomeService : Service, IHomeService
     {
         protected IKTMData data;
 

@@ -1,15 +1,14 @@
 ﻿@using System.Globalization;
-@model KTM.App.Models.ViewModels.ConciseNewsViewModel
+@model KTM.Models.ViewModels.ConciseNewsViewModel
 
 @*<h3>@Html.ActionLink(Model.Title, "Details", "News", routeValues: new {id = Model.Id}, htmlAttributes: null)
     </h3>*@
 
-<div class="container">
     <div class="row">
         <div class="col-md-6"><img src="@Model.CoverImageUrl" class="img-responsive homepage-image" @*width="410" height="307"*@>
         </div>
         <div class="col-md-6">
-            <h1>@Model.Title</h1><a href='@Url.Action("Details", "News", routeValues: new {id = Model.Id})' class="btn btn-primary">Read more</a>
+            <h2>@Model.Title</h2><a href='@Url.Action("Details", "News", routeValues: new {id = Model.Id})' class="btn btn-primary">Read more</a>
         </div>
         @*<span>*@
         @*<img src="@Model.CoverImageUrl" class="img-responsive homepage-image" />*@
@@ -28,5 +27,4 @@
     <br />
        
   
-</div>
 @*<img src="@Model.CoverImageUrl" class="img-responsive homepage-image" />*@

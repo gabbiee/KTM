@@ -1,8 +1,9 @@
-﻿@model IEnumerable<KTM.App.Models.ViewModels.ConciseNewsViewModel>
+﻿@model IEnumerable<KTM.Models.ViewModels.ConciseNewsViewModel>
 @{
     ViewBag.Title = "All News";
 }
-
 <h2>@ViewBag.Title</h2>
+<hr />
+
 @Html.DisplayForModel()
 @Html.Partial("_Pagination")

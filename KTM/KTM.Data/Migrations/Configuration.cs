@@ -127,10 +127,10 @@ namespace KTM.Data.Migrations
                 var userStore = new UserStore<User>(context);
                 var userManager = new UserManager<User>(userStore);
                 User user;
-                user = new User() { UserName = "admin", Email = "admin@gmail.com" };
+                user = new User() { UserName = "admin", Email = "admin@gmail.com"};
                 userManager.Create(user, "Admin123");
                 userManager.AddToRole(user.Id, "Admin");
-                user = new User() { UserName = "pesho", Email = "pesho@abv.bg" };
+                user = new User() { UserName = "pesho", Email = "pesho@abv.bg"};
                 userManager.Create(user, "Pesho123");
                 user = new User() { UserName = "gosho", Email = "gosho@abv.bg" };
                 userManager.Create(user, "Gosho123");

@@ -94,7 +94,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CategoriesService.cs" />
+    <Compile Include="ChatService.cs" />
+    <Compile Include="ContactService.cs" />
     <Compile Include="HomeService.cs" />
+    <Compile Include="Interfaces\ICategoriesService.cs" />
+    <Compile Include="Interfaces\IChatService.cs" />
+    <Compile Include="Interfaces\IContactService.cs" />
+    <Compile Include="Interfaces\IHomeService.cs" />
+    <Compile Include="Interfaces\IMotorcycleService.cs" />
+    <Compile Include="Interfaces\INewsService.cs" />
+    <Compile Include="Interfaces\IRatingService.cs" />
+    <Compile Include="Interfaces\IReviewService.cs" />
+    <Compile Include="Interfaces\IService.cs" />
     <Compile Include="MotorcycleService.cs" />
     <Compile Include="NewsService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

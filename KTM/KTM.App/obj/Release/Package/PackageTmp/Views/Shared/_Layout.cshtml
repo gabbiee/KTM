@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="shortcut icon" href="Content/favicon.ico" type="image/x-icon" />
+
 
     <title>@ViewBag.Title - KTM</title>
     @Styles.Render("~/Content/css")
@@ -23,7 +24,7 @@
                 </button>
                 @*<img src="../../Content/KTM-Logo.png">*@
                 @*@Html.ActionLink("KTM", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
-                <a href="@Url.Action("Index", "Home")" title="KTM" class="links">
+                <a href="@Url.Action("Index", "Home",new { area = "" } )" title="KTM" class="links">
                     <img alt="KTM" src="https://drive.google.com/uc?id=0ByuTp8DIw-KvRlVSWHNlcUg3Z2s">
                 </a>
 
@@ -31,14 +32,18 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     @*<li>@Html.ActionLink("All Motorcycles", "Index", "Motorcycles")</li>
-                    <li>@Html.ActionLink("All News", "Index", "News")</li>*@
+                        <li>@Html.ActionLink("All News", "Index", "News")</li>*@
                     <li>@Html.ActionLink("All Motorcycles", "Index", "Motorcycles", new { area = "" }, new { @class = "navbar-nav" })</li>
                     <li>@Html.ActionLink("All News", "Index", "News", new { area = "" }, new { @class = "navbar-nav" })</li>
                     @Html.Action("All", "Categories", routeValues: new { area = "" })
                     @if (User.IsInRole("Admin"))
                     {
-                        <li>@Html.ActionLink("Add Motorcycle", "Add", "Motorcycles", routeValues: new { area = "Admin" }, htmlAttributes: null)</li>
+                        <li>@Html.ActionLink("Add Motorcycle", "Add", "Motorcycles", routeValues: new {area = "Admin"}, htmlAttributes: null)</li>
+                        <li>@Html.ActionLink("Add News", "Add", "News", routeValues: new {area = "Admin"}, htmlAttributes: null)</li>
                     }
+                  
+                    <li>@Html.ActionLink("Contact", "Index", "Contact", new { area = "" }, new { @class = "navbar-nav" })</li>
+
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
@@ -51,9 +56,14 @@
             <p>&copy; @DateTime.Now.Year - KTM</p>
         </footer>
     </div>
-
+    @*<div class="preloader">
+        <div id="loop" class="center"></div>
+        <div id="bike-wrapper" class="center">
+            <div id="bike" class="centerBike"></div>
+        </div>
+    </div>*@
     @Scripts.Render("~/bundles/jquery")
-    @*@Scripts.Render("~/bundles/js")*@
+    @Scripts.Render("~/bundles/js")
     @Scripts.Render("~/bundles/bootstrap")
 
 

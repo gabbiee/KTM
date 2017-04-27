@@ -1,12 +1,15 @@
 ﻿namespace KTM.Services
 {
+    using System;
     using System.Linq;
+    using System.Web.Mvc;
     using AutoMapper;
     using Data.UnitOfWork;
+    using Interfaces;
     using Models.EntityModels;
     using Models.ViewModels;
 
-    public class RatingsService:Service
+    public class RatingsService:Service, IRatingService
     {
         protected IKTMData data;
 
@@ -16,9 +19,15 @@
         }
 
 
+        [HandleError(ExceptionType = typeof(ArgumentException), View = "CustomError")]
         public Motorcycle GetMotorcycleById(int id)
         {
             var motorcycle = this.data.Motorcycles.Find(id);
+
+            if (motorcycle == null)
+            {
+                throw new ArgumentException("Motorcycle not found");
+            }
 
             return motorcycle;
         }
@@ -30,7 +39,8 @@
 
         public Rating GetExistingRatings(Motorcycle motorcycle, User currentUser)
         {
-            var existingRating = this.data.Ratings.All().FirstOrDefault(r => r.Motorcycle.Id == motorcycle.Id && r.Author.Id == currentUser.Id);
+            var existingRating = this.data.Ratings.All()
+                .FirstOrDefault(r => r.Motorcycle.Id == motorcycle.Id && r.Author.Id == currentUser.Id);
 
             return existingRating;
         }

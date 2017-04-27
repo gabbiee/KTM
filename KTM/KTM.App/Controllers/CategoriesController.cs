@@ -1,6 +1,7 @@
 ﻿namespace KTM.App.Controllers
 {
-    using System.Collections.Generic;
+     using System.Collections.Generic;
+    using System.Net;
     using System.Web.Mvc;
     using Data.UnitOfWork;
     using Models.ViewModels;
@@ -18,33 +19,36 @@
 
         public ActionResult All()
         {
-            //var categories = this.Data.Categories.All()
-            //    .Select(c => new SelectListItem() { Text = c.Name, Value = c.Id.ToString() });
+      
             var vm = this.service.GetAllCategories();
+            if (vm == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.NotFound);
+            }
 
+            Response.StatusCode = 200;
             return this.PartialView(vm);
         }
 
+    
         public ActionResult Details(int id)
         {
 
-          // var category = this.Data.Categories.Find(id);
+       
           var category = this.service.GetCategoryById(id);
-         //   if (category == null)
-         //   {
-         //       return this.HttpNotFound("The requested category was not found in the system.");
-         //   }
+           if (category == null)
+           {
+                return new HttpStatusCodeResult(HttpStatusCode.NotFound);
+            }
 
-         //   var motorcycles = this.service.GetMotorcyclesFromCategory(category);
-
-         //   //var motorcycles = category.Motorcycles
-         //   //    .OrderBy(g => g.Title);
-         //   var model = this.service.ConciseMotorcycleViewModels(motorcycles);
-         //   //var model = Mapper.Map<IEnumerable<ConciseMotorcycleViewModel>>(motorcycles);
-         //   ViewBag.Category = category.Name;
 
             IEnumerable<ConciseMotorcycleViewModel> vm = this.service.GetDetails(id);
+            if (vm == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.NotFound);
+            }
             ViewBag.Category = category.Name;
+            Response.StatusCode = 200;
             return View(vm);
         }
     }

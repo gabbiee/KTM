@@ -4,7 +4,6 @@
     using System.Data.Entity;
     using System.Linq;
     using System.Web.Mvc;
-    using App.Controllers;
     using AutoMapper;
     using Data.UnitOfWork;
     using Microsoft.AspNet.Identity;
@@ -12,7 +11,6 @@
     using KTM.Models.EntityModels;
     using KTM.Models.ViewModels;
     using Controller = App.Controllers.Controller;
-
 
     [Authorize(Roles = "Admin")]
     public class MotorcyclesController : Controller
@@ -50,9 +48,13 @@
             return this.View(model);
         }
 
+
+
         [HttpGet]
         public ActionResult Add()
         {
+
+
             var categories = this.Data.Categories.All()
                 .Select(c => new SelectListItem() { Text = c.Name, Value = c.Id.ToString() });
             ViewBag.Categories = categories;
@@ -64,9 +66,13 @@
             return this.PartialView("_AddImageUrl", new List<string>() { string.Empty });
         }
 
+
+
         [HttpPost]
         public ActionResult Add(MotorcycleBindingModel motorcycleModel)
         {
+
+
             var currentUser = this.Data.Users.Find(this.User.Identity.GetUserId());
             var category = this.Data.Categories.Find(motorcycleModel.CategoryId);
             var imageUrls = motorcycleModel.ImageUrls.Select(url => new ImageUrl() { Url = url }).ToList();

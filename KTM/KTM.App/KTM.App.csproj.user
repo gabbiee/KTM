@@ -12,6 +12,7 @@
     <UseIISExpress>true</UseIISExpress>
     <NameOfLastUsedPublishProfile>ktmracing - Web Deploy</NameOfLastUsedPublishProfile>
     <IISExpressSSLPort>44371</IISExpressSSLPort>
+    <ProjectView>ShowAllFiles</ProjectView>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

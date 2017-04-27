@@ -19,21 +19,23 @@
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
+
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
+                  "~/Content/chat.css",
                 "~/Content/bootstrap.css",
-                "~/Content/Site.css"));
+              "~/Content/Site.css"));
 
-                          bundles.Add(new StyleBundle("~/Content/magnifier").Include(
-                     "~/Content/bootstrap-magnify.css",
-                        "~/Content/bootstrap-magnify.min.css"));
 
             bundles.Add(new ScriptBundle("~/bundles/js").Include(
-                "~/Scripts/bootstrap-magnify.js", 
-                "~/Scripts/bootstrap-magnify.min.js"));
+                "~/Scripts/preloader.js",
+                "~/Scripts/jquery.signalR-2.2.2-preview1.js",
+                "~/Scripts/chat.js",
+                "~/Scripts/rtcInput.js",
+                "~/Scripts/rtcOutput.js"));
 
         }
     }

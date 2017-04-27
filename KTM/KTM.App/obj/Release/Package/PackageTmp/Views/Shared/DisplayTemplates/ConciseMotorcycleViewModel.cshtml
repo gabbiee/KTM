@@ -1,4 +1,5 @@
 ﻿@using System.Globalization;
-@model KTM.App.Models.ViewModels.ConciseMotorcycleViewModel
+@model KTM.Models.ViewModels.ConciseMotorcycleViewModel
 <h3>@Html.ActionLink(Model.Title, "Details", "Motorcycles", routeValues: new { id = Model.Id }, htmlAttributes: null) <span class="label label-warning">@Model.Rating.ToString("F2", CultureInfo.InvariantCulture)</span></h3>
-<img src="@Model.CoverImageUrl" class="img-responsive homepage-image" />
+<img src="@Model.CoverImageUrl" class="img-responsive homepage-image"/>
+<br />
