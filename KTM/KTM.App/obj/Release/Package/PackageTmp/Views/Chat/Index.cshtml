@@ -1,0 +1,36 @@
+﻿@model KTM.Models.ViewModels.ChatViewModel
+@{
+    ViewBag.Title = "LiveChat";
+}
+
+<h2>@ViewBag.Title</h2>
+<hr />
+
+<div class="container" id="chat-container">
+
+        <div class="col-md-8 col-md-offset-2">
+
+
+            <ul class="chat-messages" id="chat-conversation"></ul>
+
+
+            <input type="text" placeholder="Enter your message..." id="txtMessage" class="form-control"  onFocus="value=''"  />
+           
+
+            <br />
+
+            <input type="button" value="Send" class="form-control" id="sendMessage" />
+
+        </div>
+
+    </div>
+
+<script type="text/javascript">
+   
+    $('#txtMessage').keypress(function (e) {
+        if (e.which == 13) {
+            sendMessage();
+            e.preventDefault();
+        }
+    });
+</script>
