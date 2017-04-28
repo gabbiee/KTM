@@ -6,6 +6,7 @@
     using Models.ViewModels;
     using Services;
 
+    [Authorize]
     public class ChatController : Controller
     {
        

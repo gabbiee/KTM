@@ -8,10 +8,9 @@
         {
             username = this.Context.User.Identity.Name;
 
-            if (message != null)
-            {
-                Clients.All.sendMessage(username, message);
-            }
+
+            Clients.All.sendMessage(username, message);
+
 
         }
     }

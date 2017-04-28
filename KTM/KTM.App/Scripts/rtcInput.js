@@ -4,16 +4,20 @@
     chat.client.sendMessage = function (username, message) {
 
   
-            
+            if (message.trim().length === 0) {
+                return null;
+            }
        
        /////// user = this.Context.User.Identity.Name;
-        if (username == sessionStorage.getItem('userName')) {
+        if (username == sessionStorage.getItem('userName') ) {
          //   $('#chat-conversation').append('<li class="chat-line" id="mine">' + username + ': ' + message + '</li>');
 
-            $('#chat-conversation').append('<li class="chat-line" id="mine">'  + message + '</li> <br>');
+            $('#chat-conversation').append('<li class="chat-line" id="mine">' + message + '</li> <br>');
+            $('#txtMessage').val('').focus();
             } 
         else {
-              $('#chat-conversation').append('<li class="chat-line" id="not-mine">' + username + ': ' + message + '</li>');
+            $('#chat-conversation').append('<li class="chat-line" id="not-mine">' + username + ': ' + message + '</li>');
+            $('#txtMessage').val('').focus();
         }
        
 
