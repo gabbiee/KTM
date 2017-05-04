@@ -14,7 +14,11 @@
             <ul class="chat-messages" id="chat-conversation"></ul>
 
 
+<<<<<<< HEAD
             <input type="text" placeholder="Enter your message..." class="form-control input-text"   />
+=======
+            <input type="text" placeholder="Enter your message..." id="txtMessage" class="form-control"  onFocus="value=''"  />
+>>>>>>> origin/master
            
 
             <br />
@@ -24,3 +28,16 @@
         </div>
 
     </div>
+<<<<<<< HEAD
+=======
+
+<script type="text/javascript">
+   
+    $('#txtMessage').keypress(function (e) {
+        if (e.which == 13) {
+            sendMessage();
+            e.preventDefault();
+        }
+    });
+</script>
+>>>>>>> origin/master
