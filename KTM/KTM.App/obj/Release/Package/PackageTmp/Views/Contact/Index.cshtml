@@ -8,22 +8,33 @@
 <div class="container">
     <div class="row">
 
-
-        <div class="col-md-7 col-sm-7 ">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10658.649426657525!2d13.1589548!3d48.0974572!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe7b76f3e4d93c8da!2sKTM-Sportmotorcycle+AG+Headquarter!5e0!3m2!1sen!2sbg!4v1492517663803" width="600" height="450" frameborder="0" style="border: 0" allowfullscreen></iframe>
-        </div>
-        <div class="col-md-5 col-sm-5 ">
-            <h3>Address</h3>
-            <p>@Html.Raw(this.Model.Address)</p>
-
-            <h3>Phone</h3>
-            <div> @this.Model.Phone</div>
-
-
-            <h3>Email</h3>
-            <div>@this.Model.Email</div>
-
-        </div>
     </div>
 
+
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10658.649426657525!2d13.1589548!3d48.0974572!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe7b76f3e4d93c8da!2sKTM-Sportmotorcycle+AG+Headquarter!5e0!3m2!1sen!2sbg!4v1492517663803"
+                width="600" height="450" frameborder="0" style="border: 0; width: 100%;" allowfullscreen></iframe>
+        <row class="text-center">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <h1 class="glyphicon glyphicon-map-marker"></h1>
+                <h3>Address</h3>
+                <p>@Html.Raw(this.Model.Address)</p>
+
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <h1 class="glyphicon glyphicon-earphone"></h1>
+                <h3>Phone</h3>
+                <div> @this.Model.Phone</div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <h1 class="glyphicon glyphicon-envelope"></h1>
+                <h3>Email</h3>
+                <div>@this.Model.Email</div>
+            </div>
+        </row>
+
+    </div>
+
+
 </div>
+

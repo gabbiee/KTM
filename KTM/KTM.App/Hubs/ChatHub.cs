@@ -3,6 +3,8 @@
     using Microsoft.AspNet.SignalR;
 
     public class ChatHub : Hub
+
+
     {
         public void SendMessage(string username, string message)
         {

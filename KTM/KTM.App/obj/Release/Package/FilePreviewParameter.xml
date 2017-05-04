@@ -1,11 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="IIS Web Application Name" description="" value="ktmracing" tags="IisApp">
+  <parameter name="IIS Web Application Name" description="" value="ktmworld" tags="IisApp">
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\smile\\repos\\ktm\\KTM\\KTM\.App\\obj\\Release\\Package\\PackageTmp$" />
     <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\smile\\repos\\ktm\\KTM\\KTM\.App\\obj\\Release\\Package\\PackageTmp$" />
-  </parameter>
-  <parameter name="Add write permission to App_Data Folder" description="Add write permission to App_Data folder" value="ktmracing/App_Data" tags="Hidden">
-    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\smile\\repos\\ktm\\KTM\\KTM\.App\\obj\\Release\\Package\\PackageTmp\\App_Data$" />
   </parameter>
   <parameter name="KTMConnection-Web.config Connection String" description="" value="Server=tcp:ktmdbserver.database.windows.net,1433;Initial Catalog=ktmdb;Persist Security Info=False;User ID=ktmadmin;Password=adminKtm13;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="">
     <parameterEntry kind="XmlFile" scope="C:\\Users\\smile\\repos\\ktm\\KTM\\KTM\.App\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='KTMConnection']/@connectionString" />

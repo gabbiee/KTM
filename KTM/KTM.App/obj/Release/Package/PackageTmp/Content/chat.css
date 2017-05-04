@@ -1,0 +1,44 @@
+﻿/*Chat*/
+/*#chat-container {
+    border: 1px solid black;
+}*/
+
+/*.chat-messages {
+    list-style: none;
+     background: #bb5f27;
+}*/
+
+   
+
+#not-mine {
+    background: lightgrey; 
+     list-style: none;
+      padding: 10px;
+       border-radius: 10px;
+        float: left;
+    clear: both;
+        margin: 6px  6px 6px 6px;
+  
+}
+
+#mine {
+   background:  #f27620; 
+     list-style: none;
+      padding: 10px;
+       border-radius: 10px;
+        float: right;
+    clear: both;
+      margin: 6px  6px 6px 6px;
+}
+
+
+.chat-line {
+    /*display: inline-block;*/
+    padding: 10px;
+     list-style: none;
+}
+#sendMessage {
+     background:  #f27620;
+} 
+
+

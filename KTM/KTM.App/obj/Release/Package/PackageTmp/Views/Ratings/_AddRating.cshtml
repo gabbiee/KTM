@@ -5,11 +5,11 @@
     <div class="well">
         @Html.ValidationSummary()
         @using (Ajax.BeginForm(
-                                    "Add",
-                                    "Ratings",
-                                    new { id = Model.MotorcycleId },
-                                    new AjaxOptions() { UpdateTargetId = "rating-container", InsertionMode = InsertionMode.Replace },
-                                    new { id = "add-rating-form", @class = "form-inline" }))
+             "Add",
+             "Ratings",
+             new { id = Model.MotorcycleId },
+             new AjaxOptions() { UpdateTargetId = "rating-container", InsertionMode = InsertionMode.Replace },
+             new { id = "add-rating-form", @class = "form-inline" }))
         {
             <label for="rating">Your rating:</label>
             var ratingOptions = Enumerable.Range(1, 5).Select(x => new SelectListItem() { Value = x.ToString(), Text = x.ToString() });
